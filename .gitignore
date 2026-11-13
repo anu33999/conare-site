@@ -4,3 +4,16 @@ dist
 .vercel
 .env*
 tsconfig.tsbuildinfo
+node_modules/
+.next/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+.turbo/
