@@ -4,10 +4,10 @@
  * Facts come from conare.org and public NGO listings (NGO Darpan, Give.do).
  * Re-confirm all figures with the CONARE team before launch. Anything marked
  * `demo` is illustrative placeholder content written for this concept.
- * Photos are served from conare.org; copy them into /public before launch.
+ * Photos were copied from conare.org into /public/conare so the site no longer depends on their server.
  */
 
-const c = (path: string) => 'https://conare.org/' + encodeURI(path)
+const c = (path: string) => '/conare/' + encodeURI(path)
 
 export const org = {
   name: 'CONARE',
@@ -55,10 +55,10 @@ export const nav = [
 const kg = (f: string) => c('activities_assets/Activitie In Karagudem/' + f)
 
 export const images = {
-  bannerField: c('images/home/banner0.png'),
-  banner1: c('images/home/banner1-1.png'),
-  banner3: c('images/home/banner3-1.png'),
-  thumbsUp: c('images/home/about.png'),
+  bannerField: c('images/home/banner0.jpg'),
+  banner1: c('images/home/banner1-1.jpg'),
+  banner3: c('images/home/banner3-1.jpg'),
+  thumbsUp: c('images/home/about.jpg'),
   vaccination: c('images/home/gal1.jpg'),
   kitchenGarden: c('images/home/gal2.jpg'),
   honey: c('images/home/gal3.jpg'),
